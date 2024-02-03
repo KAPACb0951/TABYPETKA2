@@ -1,0 +1,141 @@
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+}
+
+body {
+    background-color: #E7EAEF;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+footer {
+    font-size: 25px;
+    background-color: #0C151C;
+    color: #E4E5EA;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+article {
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+}
+
+article img {
+    width: 300px;
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    color: black;
+    font-size: 20px;
+}
+
+
+header {
+    background-color: #0C151C;
+    padding: 30px;
+}
+
+.links {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.links:hover {
+    color: #6D8C00;
+}
+
+.button {
+    color: white;
+    background-color: #6D8C00;
+    border: 2px solid #6D8C00;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: #6D8C00;
+    background-color: transparent;
+    border: 2px solid #6D8C00;
+}
+
+.header-link {
+    margin: 0 50px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C151C;
+}
+
+footer {
+    padding: 30px;
+}
+
+section {
+    padding: 30px 10px 30px 50px;
+}
+
+.div-politika,
+.footer-link,
+.footer-address {
+    padding-bottom: 5px;
+}
+
+
+.logo {
+    width: 150px;
+    padding: 0;
+}
+
+.block{
+    display: block;
+}
+
+.div-politika{
+    font-size: 16px;
+}
